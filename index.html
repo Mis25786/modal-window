@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Modal Windows</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- по Репеті вішаємо модалку на body -->
+    <button class="button" data-action="open-modal">Відкрити модалку</button>
+
+    <div class="backdrop js-backdrop">
+      <div class="modal">
+        <h2>Modal Window</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit
+          explicabo aspernatur hic laborum atque vero labore expedita,
+          laudantium beatae cumque. Sunt voluptatibus aperiam, repellendus
+          accusantium incidunt perferendis reiciendis quam inventore.
+        </p>
+        <button type="button" class="button" data-action="close-modal">
+          Закрити
+        </button>
+      </div>
+    </div>
+
+    <script src="./main.js" type="module"></script>
+  </body>
+</html>
